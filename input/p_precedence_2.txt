@@ -1,0 +1,13 @@
+P1
+P2 waitfor P1
+P3
+P4 waitfor P2
+P5 waitfor P3
+P6 waitfor P3,P5
+P7 waitfor P4,P3
+P8 waitfor P4,P7
+P9 waitfor P6,P8
+P10 waitfor P7,P9
+P11 waitfor P10
+P12 waitfor P3,P5,P7,P9,P11
+P13 waitfor P1,P2,P3,P4,P10,P12

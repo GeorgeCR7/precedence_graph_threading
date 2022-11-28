@@ -1,0 +1,9 @@
+P1
+P2 waitfor P1
+P3 waitfor P1
+P4 waitfor P2
+P5 waitfor P3
+P6 waitfor P3,P5
+P7 waitfor P4
+P8 waitfor P4,P7
+P9 waitfor P6,P8
